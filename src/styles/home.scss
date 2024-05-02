@@ -1,0 +1,10 @@
+.container{
+  padding: 40px 32px;
+  display: grid;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: 
+  "header"
+  "btns"
+  "experience"
+  "info";
+}
